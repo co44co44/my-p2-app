@@ -1,34 +1,70 @@
 {
-  "Coding classes": [
+  "Online Programm classes": [
     {
       "id": 1,
-      "name": "Preschool Coding Program",
+      "name": "Preschool Online Coding Program",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
       "likes": 8
     },
     {
       "id": 2,
-      "name": "1st and 2nd grade Coding Program",
+      "name": "1st and 2nd grade Online Coding Program",
       "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
       "likes": 14
     },
     {
       "id": 3,
-      "name": "1st and 2nd grade Coding Program",
+      "name": "3rd and 4tg grade Online Coding Program",
       "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
       "likes": 14
     },
     {
       "id": 4,
-      "name": "1st and 2nd grade Coding Program",
+      "name": "5th and MS Online Coding Program",
       "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
       "likes": 14
     },
     {
       "id": 5,
-      "name": "1st and 2nd grade Coding Program",
+      "name": "High School Online Coding Program",
       "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
       "likes": 14
     }
   ]
 }
+
+{
+  "In-site Programm classes": [
+    {
+      "id": 1,
+      "name": "Preschool Insite Coding Program",
+      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
+      "likes": 8
+    },
+    {
+      "id": 2,
+      "name": "1st and 2nd grade Insite Coding Program",
+      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+      "likes": 14
+    },
+    {
+      "id": 3,
+      "name": "3rd and 4th grade Insite Coding Program",
+      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+      "likes": 14
+    },
+    {
+      "id": 4,
+      "name": "5th to MS Insite Coding Program",
+      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+      "likes": 14
+    },
+    {
+      "id": 5,
+      "name": "High School Insite Coding Program",
+      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+      "likes": 14
+    }
+  ]
+}
+
