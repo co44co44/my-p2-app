@@ -7,13 +7,22 @@ import NavBar from "./NavBar"
 import ShareProject from "./ShareProject"
 
 function App() {
-  console.log (OnlineProgram)
+
   return (
     <div>
       <NavBar/>
       <Switch>
         <Route exact path= "/onlineprogram">
           <OnlineProgram />
+        </Route>
+        <Route exact path= "/insiteprogram">
+          <InsiteProgram />
+        </Route>
+        <Route exact path= "/shareproject">
+          <ShareProject />
+        </Route>
+        <Route exact path= "/">
+          <Home />
         </Route>
       </Switch>
     </div>
