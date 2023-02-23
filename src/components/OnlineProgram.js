@@ -12,26 +12,29 @@ import ProgramItem from "./ProgramItem";
 
   }, [])
 
-  const onlineItems = online.map((online, onsite) => (
+  const courses = online.map((online, onsite) => (
       <ProgramItem
-        name = {online.name}
-        image = {online.image}
-        age = {online.age}
-        phone = {online.phone}
-        instructor = {online.instructor}
-        nameOnsite = {onsite.name}
-        imageOnsite = {onsite.image}
-        ageOnsite = {onsite.age}
-        phoneOnsite = {onsite.phone}
-        instructorOnsite = {onsite.instructor}
+      online = {online}
+      onsite = {onsite}
+
+        // name = {online.name}
+        // image = {online.image}
+        // age = {online.age}
+        // phone = {online.phone}
+        // instructor = {online.instructor}
+        // nameOnsite = {onsite.name}
+        // imageOnsite = {onsite.image}
+        // ageOnsite = {onsite.age}
+        // phoneOnsite = {onsite.phone}
+        // instructorOnsite = {onsite.instructor}
 
         />
   ));
 
   return (
     <div id= "online">
-      <h2>Kids Coding Course finder!</h2>
-      <div id= "program-list"> {onlineItems}</div>
+      <h2 style={{ color: "whitesmoke" }}>Online Courses:</h2>
+      <div id= "program-list"> {courses}</div>
     </div>
   );
 }
