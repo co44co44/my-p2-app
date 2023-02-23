@@ -12,15 +12,21 @@ import ProgramItem from "./ProgramItem";
 
   }, [])
 
-  const onlineItems = online.map((online) => (
+  const onlineItems = online.map((online, onsite) => (
       <ProgramItem
-        key ={online.id}
         name = {online.name}
         image = {online.image}
-        likes = {online.likes}
+        age = {online.age}
+        phone = {online.phone}
+        instructor = {online.instructor}
+        nameOnsite = {onsite.name}
+        imageOnsite = {onsite.image}
+        ageOnsite = {onsite.age}
+        phoneOnsite = {onsite.phone}
+        instructorOnsite = {onsite.instructor}
+
         />
   ));
-  
 
   return (
     <div id= "online">

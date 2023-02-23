@@ -16,7 +16,7 @@ function App () {
       {/* <NavBar onChangePage={setPage} /> */}
       <NavBar/>
       <Switch>
-        <Route exact path= "/onlineprogram">
+        <Route exact path= "/coursefinder">
           <OnlineProgram />
         </Route>
         <Route exact path= "/insiteprogram">
