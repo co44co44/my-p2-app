@@ -1,9 +1,9 @@
 {
-  "Online Programm classes": [
+  "online": [
     {
       "id": 1,
       "name": "Preschool Online Coding Program",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
+      "image": "https://www.artibeus.com/wp-content/uploads/2018/05/computer-software-featured-image.jpg",
       "likes": 8
     },
     {
@@ -31,7 +31,7 @@
       "likes": 14
     }
   ], 
-  "Insite Program classes": [
+  "onsite": [
     {
       "id": 1,
       "name": "Preschool Insite Coding Program",

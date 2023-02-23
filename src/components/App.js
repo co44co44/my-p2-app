@@ -1,16 +1,20 @@
+
 import React from 'react'
-import {Route, Switch } from "react-router-dom"
+import { Route, Switch } from "react-router-dom"
 import Home from "./Home"
 import InsiteProgram from "./InsiteProgram.js"
 import OnlineProgram from './OnlineProgram.js'
 import NavBar from "./NavBar"
-import ShareProject from "./ShareProject"
+import ShareCourses from "./ShareCourses"
 
-function App() {
+
+function App () {
+  
 
   return (
     <div>
-      <NavBar/>
+      {/* <NavBar onChangePage={setPage} /> */}
+      
       <Switch>
         <Route exact path= "/onlineprogram">
           <OnlineProgram />
@@ -18,13 +22,14 @@ function App() {
         <Route exact path= "/insiteprogram">
           <InsiteProgram />
         </Route>
-        <Route exact path= "/shareproject">
-          <ShareProject />
+        <Route exact path= "/sharecouses">
+          <ShareCourses/>
         </Route>
         <Route exact path= "/">
           <Home />
         </Route>
       </Switch>
+      <NavBar/>
     </div>
   )
 }
