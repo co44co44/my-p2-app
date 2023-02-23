@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 // name, image, age, phone, instructor
 function OnsiteCourseItem({ onsite } ) {
   console.log (onsite)

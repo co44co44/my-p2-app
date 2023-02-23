@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
-import ProgramItem from "./ProgramItem";
 import OnsiteCourseItem from "./OnsiteCourseItem.js"
+import OnlineCourseItem from './OnlineCourseItem';
 
 function Home() {
   // const [course, setCourse] = useState([]);
@@ -24,7 +24,7 @@ function Home() {
 
 const onlineCourses = online.map((online) => (
   
-  <ProgramItem
+  <OnlineCourseItem
     online = {online}
   />
 ));    
