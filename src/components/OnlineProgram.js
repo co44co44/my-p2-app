@@ -24,7 +24,7 @@ import ProgramItem from "./ProgramItem";
 
   return (
     <div id= "online">
-      <h2>Join our Online Program!</h2>
+      <h2>Kids Coding Course finder!</h2>
       <div id= "program-list"> {onlineItems}</div>
     </div>
   );

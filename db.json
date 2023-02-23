@@ -4,63 +4,82 @@
       "id": 1,
       "name": "Preschool Online Coding Program",
       "image": "https://www.artibeus.com/wp-content/uploads/2018/05/computer-software-featured-image.jpg",
-      "likes": 8
+      "age": "Preschool",
+      "phone": "954-222-3333",
+      "instructor": "Happy Coding for Kids"
     },
     {
       "id": 2,
       "name": "1st and 2nd grade Online Coding Program",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "image": "https://www.artibeus.com/wp-content/uploads/2018/05/computer-software-featured-image.jpg",
+      "age": "Elementary",
+      "phone": "954-222-3333",
+      "instructor": "Happy Coding for Kids"
     },
     {
       "id": 3,
-      "name": "3rd and 4tg grade Online Coding Program",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "name": "3rd to 5th grade Online Coding Program",
+      "image": "https://www.artibeus.com/wp-content/uploads/2018/05/computer-software-featured-image.jpg",
+      "age": "Elementary",
+      "phone": "954-222-3333",
+      "instructor": "Happy Coding for Kids"
     },
     {
       "id": 4,
-      "name": "5th and MS Online Coding Program",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "name": "MS Online Coding Program",
+      "image": "https://www.artibeus.com/wp-content/uploads/2018/05/computer-software-featured-image.jpg",
+      "age": "Middle School",
+      "phone": "954-222-3333",
+      "instructor": "Happy Coding for Kids"
     },
     {
       "id": 5,
       "name": "High School Online Coding Program",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "image": "https://www.artibeus.com/wp-content/uploads/2018/05/computer-software-featured-image.jpg",
+      "age": "High School",
+      "phone": "954-222-3333",
+      "instructor": "Happy Coding for Kids"
     }
   ], 
   "onsite": [
     {
       "id": 1,
-      "name": "Preschool Insite Coding Program",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "image": "https://www.artibeus.com/wp-content/uploads/2018/05/computer-software-featured-image.jpg",
+      "age": "Preschool",
+      "phone": "954-222-3333",
+      "instructor": "Happy Coding for Kids"
     },
     {
       "id": 2,
       "name": "1st and 2nd grade Insite Coding Program",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "image": "https://www.artibeus.com/wp-content/uploads/2018/05/computer-software-featured-image.jpg",
+      "age": "Elementary",
+      "phone": "954-222-3333",
+      "instructor": "Happy Coding for Kids"
     },
     {
       "id": 3,
-      "name": "3rd and 4th grade Insite Coding Program",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "name": "3rd to 5th grade Online Coding Program",
+      "image": "https://www.artibeus.com/wp-content/uploads/2018/05/computer-software-featured-image.jpg",
+      "age": "Elementary",
+      "phone": "954-222-3333",
+      "instructor": "Happy Coding for Kids"
     },
     {
       "id": 4,
-      "name": "5th to MS Insite Coding Program",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "name": "MS Online Coding Program",
+      "image": "https://www.artibeus.com/wp-content/uploads/2018/05/computer-software-featured-image.jpg",
+      "age": "Middle School",
+      "phone": "954-222-3333",
+      "instructor": "Happy Coding for Kids"
     },
     {
       "id": 5,
-      "name": "High School Insite Coding Program",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "name": "High School Online Coding Program",
+      "image": "https://www.artibeus.com/wp-content/uploads/2018/05/computer-software-featured-image.jpg",
+      "age": "High School",
+      "phone": "954-222-3333",
+      "instructor": "Happy Coding for Kids"
     }
   ]
 }

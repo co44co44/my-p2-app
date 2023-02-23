@@ -14,7 +14,7 @@ function App () {
   return (
     <div>
       {/* <NavBar onChangePage={setPage} /> */}
-      
+      <NavBar/>
       <Switch>
         <Route exact path= "/onlineprogram">
           <OnlineProgram />
@@ -29,7 +29,7 @@ function App () {
           <Home />
         </Route>
       </Switch>
-      <NavBar/>
+      
     </div>
   )
 }

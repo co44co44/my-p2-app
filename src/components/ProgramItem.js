@@ -6,9 +6,9 @@ function ProgramItem({name, image, likes} ) {
 
     
   return (
-    <div className= "program">
+    <div id="card" className= "program">
       <h3> {name} </h3>
-      <img src={image} alt={image}></img>
+      <img src={image} id="coursepic" alt={image}></img>
       <p>{likes}</p>
     </div>
   )

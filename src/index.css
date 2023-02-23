@@ -17,28 +17,29 @@ css example from video react router URL parameters, erase and do my own */
 
 {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
 body {
   font-family:'Courier New', Courier, monospace;
   font-size: 20px;
+  background-color: rgb(226, 236, 242);
+  color: #050505;
 }
 
 h1,
-h2,
+
 h3,
 h4,
 h5,
 h6 {
   font-family: 'Courier New', Courier, monospace;
-  margin-bottom: 1em;
   align-items: center;
   
 }
-
-h1 {
+h2,
+h1, 
+#logo {
   background-color: rgb(54, 170, 238);
   font-size: 2.2em;
   display: inline-block;
@@ -47,7 +48,8 @@ h1 {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  padding: 1rem;
+ 
+ 
 }
 p {
   margin-bottom: 1em;
@@ -77,6 +79,35 @@ nav a:active {
   border-bottom: 2px solid tomato;
 }
 
+img {
+ border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+#card {
+  
+  height: 100px;
+  border: 1px solid blue;
+  display: inline-block;
+  box-sizing: border-box;
+  width:fit-content;
+  align-content: auto;
+  border: solid #5B6DCD 10px;
+  padding: 5px;
+  height: fit-content;
+ 
+}
+
+#logo{
+  background-color: rgb(54, 170, 238);
+  font-size: 2.2em;
+  
+ 
+ 
+}
+
 #home {
   height: 50vh;
   min-height: 400px;
@@ -94,9 +125,9 @@ nav a:active {
   padding: 1rem;
 }
 
-#about img {
+/* #about img {
   max-height: 50%;
-}
+} */
 
 #about a {
   display: block;
