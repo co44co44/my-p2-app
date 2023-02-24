@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import OnsiteCourseItem from "./OnsiteCourseItem.js"
 import OnlineCourseItem from './OnlineCourseItem';
+import ShareCourses from './ShareCourses.js';
 
 function CourseFinder (){
   const [online, setOnline] = useState([]);
@@ -35,10 +36,22 @@ const onsiteCourses = onsite.map((onsite) => (
 ));    
     console.log ("helloooo")
  
+
+      function addCourseOnline(courseOnlineObj){
+        setOnline([...online, courseOnlineObj])
+      }
+
+      function addCourseOnsite(courseOnsiteObj){
+        setOnsite([...onsite, courseOnsiteObj])
+      }
+
   return (
     <div>
+      <ShareCourses OnAddOnlineCourse= {addCourseOnline} OnAddOnsiteCourse= {addCourseOnsite}/>
+
       <div style={{background: "white" }} id= "program-list"> 
       <h2 style={{ color: "white", background: "purple" }}> Online Courses: </h2> {onlineCourses} 
+      
       <h2 style={{ color: "white", background: "purple" }}> Onsite Courses: </h2> {onsiteCourses}
 
        </div>

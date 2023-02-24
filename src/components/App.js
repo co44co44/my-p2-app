@@ -6,6 +6,7 @@ import NavBar from "./NavBar"
 import ShareCourses from "./ShareCourses"
 import CourseFinder from './CourseFinder'
 
+
 function App () {
   
 
