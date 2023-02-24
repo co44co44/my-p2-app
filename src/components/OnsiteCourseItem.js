@@ -1,16 +1,19 @@
 import React from 'react';
-
+import CourseFinder from './CourseFinder';
 // name, image, age, phone, instructor
 function OnsiteCourseItem({ onsite } ) {
   console.log (onsite)
+
   return (
 
 <div id="card" className= "program">
+
       <h3> {onsite.name} </h3>
       <img src={onsite.image} id="coursepic" alt={onsite.image}></img>
       <h3>Age group: {onsite.age}</h3>
       <h3>Contact: {onsite.phone}</h3>
       <h3>Instructor: {onsite.instructor}</h3>
+      {/* <CourseFinder OnsiteCourse = {onsite} /> */}
     </div>
 
 

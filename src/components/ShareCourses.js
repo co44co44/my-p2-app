@@ -1,8 +1,9 @@
 import React from 'react'
 
 function ShareCourses() {
+  
   return (
-    <div>
+    <div style={{background: "white" }}>
       <h1>Publish your Coding Courses for kids!</h1>
     </div>
   )

@@ -1,49 +1,72 @@
-
-import React, { useEffect, useState } from 'react';
-import OnsiteCourseItem from "./OnsiteCourseItem.js"
-import OnlineCourseItem from './OnlineCourseItem';
+import React from 'react';
 
 function Home() {
-  // const [course, setCourse] = useState([]);
-  const [online, setOnline] = useState([]);
-  const [onsite, setOnsite] = useState([]);
 
-  useEffect (() => {
-    fetch("http://localhost:3000/online")
-      .then (r => r.json())
-      .then (data => setOnline(data))
-      
-}, [])
-
-  useEffect (() => {
-    fetch("http://localhost:3000/onsite")
-      .then (r => r.json())
-      .then (data => setOnsite(data))
-    
-}, [])
-
-const onlineCourses = online.map((online) => (
-  
-  <OnlineCourseItem
-    online = {online}
-  />
-));    
-const onsiteCourses = onsite.map((onsite) => (
-  
-  <OnsiteCourseItem
-    onsite = {onsite}
-  />
-));    
-    console.log ("helloooo")
-    
-  return (
+  return(
     <div>
-      <div id= "program-list"> 
-      <h2> Online Courses: </h2> {onlineCourses} 
-      <h2> Onsite Courses: </h2> {onsiteCourses}
-       </div>
+      <h3 style={{ color: "purple" }}>
+      FIND THE BEST CODING PROGRAM FOR YOUR KIDS!
+      </h3>
+
     </div>
   )
 }
 
-export default Home;
+  export default Home;
+
+
+
+
+
+
+// import React, { useEffect, useState } from 'react';
+// import OnsiteCourseItem from "./OnsiteCourseItem.js"
+// import OnlineCourseItem from './OnlineCourseItem';
+// import CourseFinder from './CourseFinder.js';
+
+// function Home() {
+//   // const [course, setCourse] = useState([]);
+//   const [online, setOnline] = useState([]);
+//   const [onsite, setOnsite] = useState([]);
+
+//   useEffect (() => {
+//     fetch("http://localhost:3000/online")
+//       .then (r => r.json())
+//       .then (data => setOnline(data))
+      
+// }, [])
+
+//   useEffect (() => {
+//     fetch("http://localhost:3000/onsite")
+//       .then (r => r.json())
+//       .then (data => setOnsite(data))
+    
+// }, [])
+
+// const onlineCourses = online.map((online) => (
+  
+//   <OnlineCourseItem
+//     online = {online}
+//   />
+// ));    
+// const onsiteCourses = onsite.map((onsite) => (
+  
+//   <OnsiteCourseItem
+//     onsite = {onsite}
+//   />
+// ));    
+//     console.log ("helloooo")
+ 
+//   return (
+//     <div>
+//       <div id= "program-list"> 
+//       <h2> Online Courses: </h2> {onlineCourses} 
+//       <h2> Onsite Courses: </h2> {onsiteCourses}
+//       <CourseFinder OnlineCourses = {onlineCourses} OnsiteCourses = {onsiteCourses}/>
+
+//        </div>
+//     </div>
+//   )
+// }
+
+// export default Home;

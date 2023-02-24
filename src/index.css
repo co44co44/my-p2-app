@@ -23,8 +23,15 @@ css example from video react router URL parameters, erase and do my own */
 body {
   font-family:'Courier New', Courier, monospace;
   font-size: 20px;
-  background-color: rgb(226, 236, 242);
-  color: #050505;
+  background-color: rgb(13, 158, 242);
+  color: #68034f;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("https://www.lifeintech.com/images/posts/kidscoding01.jpg"); 
+  background-size: auto;
+  background-color: transparent;
+  
 }
 
 h1,
@@ -34,11 +41,20 @@ h4,
 h5,
 h6 {
   font-family: 'Courier New', Courier, monospace;
-  align-items: center;
+  background-color: rgb(13, 158, 242);
+ 
   
 }
 h2,
+
 h1, 
+h3{
+  font-family: 'Courier New', Courier, monospace;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 #logo {
   background-color: rgb(54, 170, 238);
   font-size: 2.2em;

@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function OnlineCourseItem({ online }){
 
   return(
@@ -9,6 +10,7 @@ function OnlineCourseItem({ online }){
       <h3>Age group: {online.age}</h3>
       <h3>Contact: {online.phone}</h3>
       <h3>Instructor: {online.instructor}</h3>
+      
     </div>
   )
 }
