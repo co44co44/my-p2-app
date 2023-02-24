@@ -24,21 +24,21 @@ function CourseForm({OnAddOnsiteCourse, OnAddOnlineCourse}){
     }
 
     return (
-        <div className = "program">
+        <div  className = "program">
             <form onSubmit = {handleSubmit} style={{background: "white" }}>
-                <h2 >
-                <label>Class Name</label>
-                <input type="text" id="name" value={name} onChange={e => setName(e.target.value)} />
-                <label>Age group:</label>
-                <input type="text" id="age" value={age} onChange={e => setAge(e.target.value)} />
-                <label htmlFor="image">Image</label>
-                <input type = "text" id="image" value= {image} onChange = {e => setImage(e.target.value)} />
-                <label>Contact:</label>
-                <input type="text" id="contact" value={phone} onChange={e => setPhone(e.target.value)} />
-                <label>Instructor:</label>
-                <input type="text" id="instructor" value={instructor} onChange={e => setInstructor(e.target.value)} />
-                </h2>
-                <button type="submit">Add Course</button>
+                <h2 style={{background: "rgb(233, 217, 232" }}>
+                    <label>Class Name</label>
+                    <input type="text" id="name" value={name} onChange={e => setName(e.target.value)} />
+                    <label>Age group:</label>
+                    <input type="text" id="age" value={age} onChange={e => setAge(e.target.value)} />
+                    <label htmlFor="image">Image</label>
+                    <input type = "text" id="image" value= {image} onChange = {e => setImage(e.target.value)} />
+                    <label>Contact:</label>
+                    <input type="text" id="contact" value={phone} onChange={e => setPhone(e.target.value)} />
+                    <label>Instructor:</label>
+                    <input type="text" id="instructor" value={instructor} onChange={e => setInstructor(e.target.value)} />
+                    <button type="submit">Add Course</button>
+                </h2> 
             </form>
         </div>
     )

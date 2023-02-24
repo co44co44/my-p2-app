@@ -48,12 +48,15 @@ const onsiteCourses = onsite.map((onsite) => (
   return (
     
     <div>
-      
-      <h2 style={{background: "white" }}> Teachers! Publish your Coding Course here:</h2>
-      <CourseForm OnAddOnlineCourse= {addCourseOnline} OnAddOnsiteCourse= {addCourseOnsite}/>
+      <div style={{background: "rgb(233, 217, 232" }}>
+        <h2> Teachers! Publish your Coding Course here:</h2>
+        <CourseForm 
+          OnAddOnlineCourse= {addCourseOnline} 
+          OnAddOnsiteCourse= {addCourseOnsite} 
+        />
+      </div>
 
-
-      <div  id= "program-list"> 
+      <div  id= "course-list"> 
       <h2 style={{ color: "white", background: "purple" }}> Online Courses: </h2> {onlineCourses} 
       
       <h2 style={{ color: "white", background: "purple" }}> Onsite Courses: </h2> {onsiteCourses}

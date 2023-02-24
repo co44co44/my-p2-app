@@ -1,11 +1,12 @@
 import React from 'react';
+import CourseFinder from './CourseFinder';
 
 function Home() {
 
   return(
     <div>
       <h3 style={{ color: "purple" }}>
-      FIND THE BEST CODING PROGRAM FOR YOUR KIDS!
+      
       </h3>
 
     </div>

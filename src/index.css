@@ -41,9 +41,7 @@ h4,
 h5,
 h6 {
   font-family: 'Courier New', Courier, monospace;
-  background-color: rgb(13, 158, 242);
- 
-  
+  background-color: rgb(253, 251, 253);  
 }
 h2,
 
@@ -116,6 +114,10 @@ img {
  
 }
 
+#course-list {
+  background-color: rgb(247, 250, 251);
+
+}
 #logo{
   background-color: rgb(54, 170, 238);
   font-size: 2.2em;
