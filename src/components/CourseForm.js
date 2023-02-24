@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-function CourseForm(){
+function CourseForm({OnAddOnsiteCourse, OnAddOnlineCourse}){
 
     const [name, setName] = useState("")
     const [image, setImage] = useState("")
@@ -9,6 +9,7 @@ function CourseForm(){
     const [instructor, setInstructor] = useState("")
 
     function handleSubmit(event) {
+
         event.preventDefault()
         const newCourse = {
             name,
@@ -18,14 +19,26 @@ function CourseForm(){
             instructor,
         }
 
-        onAddCourse(newCourse)
+        OnAddOnlineCourse(newCourse)
+        OnAddOnsiteCourse(newCourse)
     }
 
     return (
         <div className = "program">
-            <form onSubmit = {handleSubmit}>
-                <label>Name</label>
+            <form onSubmit = {handleSubmit} style={{background: "white" }}>
+                <h2 >
+                <label>Class Name</label>
                 <input type="text" id="name" value={name} onChange={e => setName(e.target.value)} />
+                <label>Age group:</label>
+                <input type="text" id="age" value={age} onChange={e => setAge(e.target.value)} />
+                <label htmlFor="image">Image</label>
+                <input type = "text" id="image" value= {image} onChange = {e => setImage(e.target.value)} />
+                <label>Contact:</label>
+                <input type="text" id="contact" value={phone} onChange={e => setPhone(e.target.value)} />
+                <label>Instructor:</label>
+                <input type="text" id="instructor" value={instructor} onChange={e => setInstructor(e.target.value)} />
+                </h2>
+                <button type="submit">Add Course</button>
             </form>
         </div>
     )

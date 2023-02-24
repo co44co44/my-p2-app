@@ -1,10 +1,12 @@
 import React from 'react'
+import CourseForm from './CourseForm';
 
 function ShareCourses() {
-  
+
   return (
     <div style={{background: "white" }}>
-      <h1>Publish your Coding Courses for kids!</h1>
+      <h1>Teachers: Publish your Coding Course for kids!</h1>
+      <CourseForm/>
     </div>
   )
 }
