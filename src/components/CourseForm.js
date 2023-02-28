@@ -1,12 +1,13 @@
 import React, { useState } from "react"
 
-function CourseForm({OnAddOnsiteCourse, OnAddOnlineCourse}){
+function CourseForm({OnAddCourse}){
 
     const [name, setName] = useState("")
     const [image, setImage] = useState("")
     const [age, setAge] = useState("")
     const [phone, setPhone] = useState("")
     const [instructor, setInstructor] = useState("")
+    const [modal, setModal] = useState("")
 
     function handleSubmit(event) {
 
@@ -17,10 +18,11 @@ function CourseForm({OnAddOnsiteCourse, OnAddOnlineCourse}){
             age,
             phone,
             instructor,
+            modal,
         }
 
-        OnAddOnlineCourse(newCourse)
-        OnAddOnsiteCourse(newCourse)
+        OnAddCourse(newCourse)
+        
     }
 
     return (
@@ -37,6 +39,8 @@ function CourseForm({OnAddOnsiteCourse, OnAddOnlineCourse}){
                     <input type="text" id="contact" value={phone} onChange={e => setPhone(e.target.value)} />
                     <label>Instructor:</label>
                     <input type="text" id="instructor" value={instructor} onChange={e => setInstructor(e.target.value)} />
+                    <label>Modal:</label>
+                    <input type="text" id="modal" value={instructor} onChange={e => setModal(e.target.value)} />
                     <button type="submit">Add Course</button>
                 </h2> 
             </form>
