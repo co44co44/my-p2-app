@@ -5,6 +5,7 @@ import Home from "./Home"
 import NavBar from "./NavBar"
 import ShareCourses from "./ShareCourses"
 import CourseFinder from './CourseFinder'
+// import CourseForm from './CourseForm'
 
 
 function App () {
@@ -12,7 +13,6 @@ function App () {
 
   return (
     <div>
-     
       <NavBar/>
       <Switch>
         <Route exact path= "/courses">

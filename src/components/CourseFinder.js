@@ -23,7 +23,7 @@ function CourseFinder (){
 
   ));    
   
-    console.log ("helloooo")
+    console.log(courses)
  
 
     function addCourses(courseObj){
@@ -31,16 +31,15 @@ function CourseFinder (){
     }
 
   console.log("coursefinder runs")
-  
+
     return (
       
       <div>
         <div style={{background: "rgb(233, 217, 232" }}>
-          <h2> Teachers! Publish your Coding Course here:</h2>
-          <CourseForm OnAddCourse= {addCourses} 
+          <h2> Teachers! Publish your Coding Course here:</h2> */
+           <CourseForm OnAddCourse= {addCourses} 
           />
         </div>
-
         <div  id= "course-list"> 
         <h2 style={{ color: "white", background: "purple" }}> Courses: </h2> {allCourses} 
         </div>
