@@ -15,10 +15,10 @@ function App () {
      
       <NavBar/>
       <Switch>
-        <Route exact path= "/coursefinder">
+        <Route exact path= "/courses">
           <CourseFinder />
         </Route>
-        <Route exact path= "/sharecouses">
+        <Route exact path= "/courses/new">
           <ShareCourses/>
         </Route>
         <Route exact path= "/">

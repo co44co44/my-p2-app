@@ -1,5 +1,5 @@
 import React from 'react';
-import CourseFinder from './CourseFinder';
+// import CourseFinder from './CourseFinder';
 // name, image, age, phone, instructor
 function OnsiteCourseItem({ onsite } ) {
   console.log (onsite)

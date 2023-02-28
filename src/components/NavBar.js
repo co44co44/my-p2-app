@@ -10,9 +10,8 @@ function NavBar() {
     </h1>
       <nav>
         <NavLink to= "/"> Home </NavLink>
-        <NavLink to="/coursefinder">Coding Courses Finder ></NavLink>
-        {/* <NavLink to="/onsiteprogram">On-site Courses</NavLink> */}
-        <NavLink to="/sharecouses">Teachers: Publish your Coding Course!></NavLink>
+        <NavLink to="/courses">Coding Courses Finder ></NavLink>
+        <NavLink to="/courses/new">Teachers: Publish your Coding Course!></NavLink>
     </nav>
 </div>
   )
