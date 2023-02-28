@@ -1,3 +1,10 @@
+# Resources used to create this app
+This project used images that were online:
+
+https://www.artibeus.com/wp-content/uploads/2018/05/computer-software-featured-image.jpg
+
+CSS: This project started using the CSS in the Flatiron React Router Lab.  But then, it was changed for this projects needs.   
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
