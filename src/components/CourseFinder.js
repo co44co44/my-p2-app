@@ -36,7 +36,7 @@ function CourseFinder (){
       
       <div>
         <div style={{background: "rgb(233, 217, 232" }}>
-          <h2> Teachers! Publish your Coding Course here:</h2> */
+          <h2> Teachers! Publish your Coding Course here:</h2> 
            <CourseForm OnAddCourse= {addCourses} 
           />
         </div>
