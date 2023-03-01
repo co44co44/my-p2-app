@@ -1,3 +1,11 @@
-import React from "react";
+import React from 'react'
 
-function Filter({})
+ function Filter() {
+    
+  return (
+    <div>
+      
+    </div>
+  )
+}
+export default Filter;

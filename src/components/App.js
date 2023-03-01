@@ -1,49 +1,23 @@
 
-import React, { Route, Switch, useState, useEffect } from "react"
+import React from 'react'
+import { Route, Switch } from "react-router-dom"
 import Home from "./Home"
 import NavBar from "./NavBar"
 import ShareCourses from "./ShareCourses"
 import CourseFinder from './CourseFinder'
-import CourseItem from './CourseItem';
 // import CourseForm from './CourseForm'
 
 
-
 function App () {
-  const [courses, setCourses] = useState([]);
 
-
-    useEffect (() => {
-      fetch("http://localhost:3000/courses")
-        .then (r => r.json())
-        .then (data => setCourses(data))
-        
-  }, [])
-
-  const allCourses = courses.map((courses) => (
-    
-    <CourseItem
-    courses = {courses}
-    />
-
-  ));    
-  
-    console.log(courses)
- 
-
-    function addCourses(courseObj){
-      setCourses([...courses, courseObj])
-    }
-
-  console.log("coursefinder runs")
-  
 
   return (
     <div>
+
       <NavBar/>
       <Switch>
         <Route exact path= "/courses">
-          <CourseFinder OnAddCourse= {addCourses}/>
+          <CourseFinder />
         </Route>
         <Route exact path= "/courses/new">
           <ShareCourses/>
@@ -56,27 +30,61 @@ function App () {
     </div>
   )
 }
-
 export default App;
 
+// import React, {useState, useEffect }  from "react";
+// import { Route, Switch} from "react-router-dom";
+// import Home from "./Home";
+// import NavBar from "./NavBar";
+// import ShareCourses from "./ShareCourses";
+// import CourseFinder from "./CourseFinder";
+// import CourseItem from "./CourseItem";
+
+
+
 // function App () {
-    
+//   const [courses, setCourses] = useState([]);
+
+
+//     useEffect (() => {
+//       fetch("http://localhost:3000/courses")
+//         .then (r => r.json())
+//         .then (data => setCourses(data))
+        
+//   }, [])
+
+//   const allCourses = courses.map((courseObj) => {
+//     return (
+//     <CourseItem courses = {courseObj}/>
+//     )
+//   }
+//   );    
+
+//     function addCourses(courseObj){
+//       setCourses([...courses, courseObj])
+//     }
+
+//   console.log("app runs")
+  
 
 //   return (
 //     <div>
 //       <NavBar/>
 //       <Switch>
 //         <Route exact path= "/courses">
-//           <CourseFinder />
+//           <CourseFinder  courses = {courses} />
 //         </Route>
 //         <Route exact path= "/courses/new">
-//           <ShareCourses/>
+//           <ShareCourses OnAddCourseSubmit= {addCourses}/>
 //         </Route>
 //         <Route exact path= "/">
-//           <Home />
+//           <Home/>
+//         </Route>
+//         <Route path="*">
+//           <h1>404 not found</h1>
 //         </Route>
 //       </Switch>
-      
+     
 //     </div>
 //   )
 // }
