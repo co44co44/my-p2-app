@@ -89,7 +89,15 @@
       "phone": "954-222-3333",
       "instructor": "Happy Coding for Kids",
       "modal": "onsite"
+    },
+    {
+      "id": 11,
+      "name": "Course101",
+      "image": "https://st2.depositphotos.com/1005091/6260/v/950/depositphotos_62607689-stock-illustration-heap-of-toys.jpg",
+      "age": "preschool",
+      "phone": "954-516-9999",
+      "instructor": "Mr. Stv",
+      "modal": "online"
     }
   ]
 }
-
