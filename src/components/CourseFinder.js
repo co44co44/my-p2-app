@@ -4,6 +4,7 @@ import CourseItem from './CourseItem';
 
 function CourseFinder (){
   const [courses, setCourses] = useState([]);
+  const [finder, setFinder] = useState('');
 
 
     useEffect (() => {
@@ -21,7 +22,11 @@ function CourseFinder (){
 
   ));    
 
-   
+  //  const finderCourses= courses.filter((courses) => (course.
+
+  //  )
+
+  //  })
 
 
     // function addCourses(courseObj){
@@ -34,7 +39,7 @@ function CourseFinder (){
 
         <div id ="courses" style={{background: "rgb(233, 217, 232" }}>
         
-          <h2> Choose from best ONLINE and ONSITE courses!:</h2>
+          <h2> Choose from the best ONLINE and ONSITE courses!:</h2>
 
         <h2 
         style={{ color: "white", background: "purple" }}> Courses: 
