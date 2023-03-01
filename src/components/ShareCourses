@@ -4,8 +4,9 @@ import CourseForm from './CourseForm';
 function ShareCourses() {
 
   return (
-    <div style={{background: "white" }}>
-      <h1>Teachers: Publish your Coding Course for kids!</h1>
+    <div style={{background: "rgb(233, 217, 232" }}>
+      <h1>Teachers: Share your Coding Course here...</h1>
+      <h2>Upload a new Coding Course</h2>
       <CourseForm/>
     </div>
   )

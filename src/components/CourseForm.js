@@ -10,17 +10,35 @@ function CourseForm({OnAddCourse}){
     const [modal, setModal] = useState("")
 
     function handleSubmit(event) {
-
         event.preventDefault()
-        const newCourse = {
-            name,
-            image,
-            age,
-            phone,
-            instructor,
-            modal,
+        const newCourse = { 
+            course: {
+                name,
+                image,
+                age,
+                phone,
+                instructor,
+                modal
+        }
+        }
+        fetch("/courses", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(newCourse)
+        })
+            .then(r => r.json())
+            .then(data => {
+                console.log(data.course)
+            })
         }
 
+        return (
+            <div>
+                
+            </div>
+        )
         OnAddCourse(newCourse)
 
     }

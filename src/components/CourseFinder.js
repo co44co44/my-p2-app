@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import CourseItem from './CourseItem';
-// import ShareCourses from './ShareCourses.js';
-import CourseForm from './CourseForm.js';
+
 
 function CourseFinder (){
   const [courses, setCourses] = useState([]);
@@ -22,29 +21,27 @@ function CourseFinder (){
 
   ));    
 
-    console.log ("helloooo")
+   
 
 
-    function addCourses(courseObj){
-      setCourses([...courses, courseObj])
-    }
+    // function addCourses(courseObj){
+    //   setCourses([...courses, courseObj])
+    // }
 
   console.log("coursefinder runs")
 
     return (
 
-      <div>
-        <div style={{background: "rgb(233, 217, 232" }}>
-          <h2> Teachers! Publish your Coding Course here:</h2>
-          <CourseForm OnAddCourse= {addCourses} 
-          />
+        <div id ="courses" style={{background: "rgb(233, 217, 232" }}>
+        
+          <h2> Choose from best ONLINE and ONSITE courses!:</h2>
+
+        <h2 
+        style={{ color: "white", background: "purple" }}> Courses: 
+        </h2> {allCourses} 
         </div>
 
-        <div  id= "course-list"> 
-        <h2 style={{ color: "white", background: "purple" }}> Courses: </h2> {allCourses} 
-        </div>
-
-      </div>
+     
     )
 
 }

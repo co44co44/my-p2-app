@@ -5,7 +5,7 @@ import Home from "./Home"
 import NavBar from "./NavBar"
 import ShareCourses from "./ShareCourses"
 import CourseFinder from './CourseFinder'
-// import CourseForm from './CourseForm'
+import CourseForm from './CourseForm'
 
 
 function App () {
@@ -20,7 +20,7 @@ function App () {
           <CourseFinder />
         </Route>
         <Route exact path= "/courses/new">
-          <ShareCourses/>
+          <CourseForm/>
         </Route>
         <Route exact path= "/">
           <Home />
