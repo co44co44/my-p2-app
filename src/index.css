@@ -100,13 +100,19 @@ img {
   width: 150px;
 }
 
+#coursepic {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
 #card {
-  
-  height: 100px;
-  border: 1px solid blue;
+  grid-template-rows: max-content 200px 1fr;
+  height: 200px;
   display: inline-block;
   box-sizing: border-box;
-  width:fit-content;
+  width:auto;
   align-content: auto;
   border: solid #5B6DCD 10px;
   padding: 5px;
