@@ -1,5 +1,4 @@
 import React from 'react';
-// import CourseFinder from './CourseFinder';
 
 function Home() {
 

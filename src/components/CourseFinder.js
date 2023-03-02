@@ -4,7 +4,7 @@ import CourseItem from './CourseItem';
 
 function CourseFinder (){
   const [courses, setCourses] = useState([]);
-  const [finder, setFinder] = useState('');
+  // const [finder, setFinder] = useState('');
 
 
     useEffect (() => {
