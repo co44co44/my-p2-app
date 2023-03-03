@@ -7,6 +7,10 @@ VIDEO METHOD USED FOR UPLOADING VIDEOS FROM:
 How To Embed YouTube Videos in React / Gatsby (and make them Responsive)
  https://youtu.be/xNRJwmlRBNU
 
+Youtube videos:
+"https://www.youtube.com/embed/Dv7gLpW91DM" 
+https://youtu.be/g1J4181W8ss
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

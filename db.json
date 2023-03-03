@@ -92,20 +92,29 @@
     },
     {
       "id": 11,
-      "name": "asdfasdfdfs",
-      "image": "https://tse3.mm.bing.net/th?id=OIP.GVXOshLr3oh3VEemEGJ9iAHaHa&pid=Api&P=0",
+      "name": "Code Ninja for Elementary",
+      "image": "https://st2.depositphotos.com/1005091/6260/v/950/depositphotos_62607689-stock-illustration-heap-of-toys.jpg",
       "age": "elementary",
-      "phone": "1111333444",
-      "instructor": "codakid",
-      "modal": "online"
+      "phone": "954-599-1425",
+      "instructor": "Code Ninja ",
+      "modal": "onsite"
     },
     {
       "id": 12,
-      "name": "Happy Code",
+      "name": "E-SMART Coding Club",
       "image": "https://st2.depositphotos.com/1005091/6260/v/950/depositphotos_62607689-stock-illustration-heap-of-toys.jpg",
+      "age": "middleSchool",
+      "phone": "1111 3333 555",
+      "instructor": "E-SMART",
+      "modal": "online"
+    },
+    {
+      "id": 13,
+      "name": "asdf",
+      "image": "asdf",
       "age": "preschool",
-      "phone": "954-565-7894",
-      "instructor": "Teachers Coding",
+      "phone": "asdf",
+      "instructor": "asdf",
       "modal": "online"
     }
   ]

@@ -17,10 +17,10 @@ css example from video react router URL parameters, erase and do my own */
 
 
 
-{
+/* {
   margin: 0;
   box-sizing: border-box;
-}
+} */
 
 body {
   font-family:'Courier New', Courier, monospace;
@@ -31,10 +31,9 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url("https://www.lifeintech.com/images/posts/kidscoding01.jpg"); 
   background-size: auto;
-  /* background-color: #00070a; */
   
+ 
 }
 
 h1,

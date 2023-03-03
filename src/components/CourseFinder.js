@@ -1,19 +1,10 @@
-import React, { useEffect, useState } from 'react';
+
 import CourseItem from './CourseItem';
-import CourseForm from './CourseForm';
 
 
-function CourseFinder (){
-  const [courses, setCourses] = useState([]);
-  // const [finder, setFinder] = useState('');
 
-
-    useEffect (() => {
-      fetch("http://localhost:3000/courses")
-        .then (r => r.json())
-        .then (data => setCourses(data))
-        
-  }, [])
+function CourseFinder ({courses}){
+  
 
   const allCourses = courses.map((courses) => (
 
@@ -30,20 +21,15 @@ function CourseFinder (){
   //  })
 
 
-    function addCourses(courseObj){
-      setCourses([...courses, courseObj])
-    }
+    
 
-    <CourseForm
-    addCourses = {addCourses}
-    />
 
   console.log("coursefinder runs")
 
     return (
 
-        <div id ="courses" style={{background: "white" }}>
-          <h2 style={{ color: "darkorange", fontweight: "bold" }}> Choose from the best ONLINE and ONSITE courses!:</h2>
+        <div id ="courses" style={{background: "black" }}>
+          <h2 style={{ color: "darkorange", fontweight: "bold", background: "white" }}> Choose from the best ONLINE and ONSITE courses!:</h2>
         <h2 
         style={{ color: "white", background: "purple" }}> Courses: 
         </h2> {allCourses} 

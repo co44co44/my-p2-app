@@ -34,7 +34,7 @@ function CourseForm({addCourses}){
             .then(r => r.json())
             .then((course) => addCourses(course))
                 
-                //FIXED THIS, DONE!: update the state of the courses instead of console.log
+               
             }
 
 
