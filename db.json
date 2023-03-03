@@ -98,6 +98,15 @@
       "phone": "1111333444",
       "instructor": "codakid",
       "modal": "online"
+    },
+    {
+      "id": 12,
+      "name": "Happy Code",
+      "image": "https://st2.depositphotos.com/1005091/6260/v/950/depositphotos_62607689-stock-illustration-heap-of-toys.jpg",
+      "age": "preschool",
+      "phone": "954-565-7894",
+      "instructor": "Teachers Coding",
+      "modal": "online"
     }
   ]
 }

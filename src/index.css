@@ -30,7 +30,7 @@ body {
   text-align: center;
   background-image: url("https://www.lifeintech.com/images/posts/kidscoding01.jpg"); 
   background-size: auto;
-  background-color: transparent;
+  /* background-color: #00070a; */
   
 }
 
@@ -42,7 +42,6 @@ h5,
 h6 {
   font-family: 'Courier New', Courier, monospace;
   background-color: rgb(253, 251, 253);  
- 
 }
 h2,
 
@@ -96,13 +95,6 @@ nav a:active {
 
 img {
  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-}
-
-#coursepic {
-  border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
   width: 150px;

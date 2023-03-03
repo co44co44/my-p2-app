@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-function CourseForm(){
+function CourseForm({addCourses}){
 
     const [id, setId] = useState("")
     const [name, setName] = useState("")
@@ -30,19 +30,19 @@ function CourseForm(){
             body: JSON.stringify(newCourse)
          })
             .then(r => r.json())
-            .then(data => {
-                console.log(data.course)
-                //update the state of the courses instead of console.log
-            })
-        }
+            .then((course) => addCourses(course))
+                
+                //FIXED THIS, DONE!: update the state of the courses instead of console.log
+            }
 
-        function addAge(event){
-            setAge(event.target.value)
-        } 
 
-        function addModal(event){
-            setModal(event.target.value)
-        }  
+            function addAge(event){
+                setAge(event.target.value)
+            } 
+
+            function addModal(event){
+                setModal(event.target.value)
+            }  
 
     return (
         <div  className = "program">
