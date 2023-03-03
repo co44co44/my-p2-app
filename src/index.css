@@ -12,8 +12,10 @@ code {
     monospace;
 } */
 /* 
+
 css example from video react router URL parameters, erase and do my own */
-* 
+
+
 
 {
   margin: 0;
@@ -24,6 +26,7 @@ body {
   font-family:'Courier New', Courier, monospace;
   font-size: 20px;
   background-color: rgb(13, 158, 242);
+  background-color: rgba(210, 137, 27, 0.745);
   color: #68034f;
   align-items: center;
   justify-content: center;
@@ -141,10 +144,36 @@ img {
   text-align: center;
   padding: 1rem;
 }
+input[type=text], select {
+  width: 65%;
+  padding: 5px 9px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
-/* #about img {
-  max-height: 50%;
-} */
+input[type=submit] {
+  width: 100%;
+  background-color: orange;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  
+}
+#videos-container {
+  max-width: 60%;
+  height: auto;
+}
 
 #about a {
   display: block;

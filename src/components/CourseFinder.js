@@ -42,8 +42,8 @@ function CourseFinder (){
 
     return (
 
-        <div id ="courses" style={{background: "rgb(233, 217, 232" }}>
-          <h2> Choose from the best ONLINE and ONSITE courses!:</h2>
+        <div id ="courses" style={{background: "white" }}>
+          <h2 style={{ color: "darkorange", fontweight: "bold" }}> Choose from the best ONLINE and ONSITE courses!:</h2>
         <h2 
         style={{ color: "white", background: "purple" }}> Courses: 
         </h2> {allCourses} 

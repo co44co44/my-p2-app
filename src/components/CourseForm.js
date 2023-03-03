@@ -1,4 +1,6 @@
 import React, { useState } from "react"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap'
 
 function CourseForm({addCourses}){
 
@@ -45,17 +47,19 @@ function CourseForm({addCourses}){
             }  
 
     return (
-        <div  className = "program">
-            <form onSubmit = {handleSubmit} style={{background: "white" }}>
-                <h2 style={{background: "rgb(233, 217, 232" }}>
-                    <label>Course Name:</label>
+        <div id = "form"className = "course">
+            <Container>
+            <form onSubmit = {handleSubmit}>
+
+                <h2 style={{color: "white" , background: "black" }}>
+                <label > Course Name: </label>
                     <input type="text" 
                     id="name" 
                     value={name} 
                     onChange={e => setName(e.target.value)} />
                     
-                    <label>
-                         Age group:
+                    <label style ={{display: "block"}}>
+                         Age group: 
                        <select
                         name= "age"
                         value= { age }
@@ -68,14 +72,14 @@ function CourseForm({addCourses}){
                         </select>
                     </label>
                     
-                    <label htmlFor="image">Image URL:</label>
-                    <input type = "text" id="image" value= {image} onChange = {e => setImage(e.target.value)} />
+                    
                     <label>Contact info:</label>
                     <input type="text" id="contact" value={phone} onChange={e => setPhone(e.target.value)} />
-                    <label>Instructor/Company:</label>
+
+                    <label >Instructor/Company:</label>
                     <input type="text" id="instructor" value={instructor} onChange={e => setInstructor(e.target.value)} />
                     
-                    <label>
+                    <label style ={{display: "block"}}>
                         Online/Offline:
                        <select
                         name= "modal"
@@ -86,10 +90,13 @@ function CourseForm({addCourses}){
                             <option value="onsite">Onsite</option>
                         </select>
                     </label>
+                    <label htmlFor="image">Image URL:</label>
+                    <input type = "text" id="image" value= {image} onChange = {e => setImage(e.target.value)} />
 
-                    <button type="submit">SUBMIT YOUR COURSE!</button>
+                    <button style={{background: "orange" }} type="submit">SUBMIT YOUR COURSE!</button>
                 </h2> 
             </form>
+            </Container>
         </div>
     )
 }   

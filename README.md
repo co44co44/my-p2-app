@@ -3,6 +3,10 @@ This project used images are taken from different online sources, the links to t
 
 CSS: This project started using the CSS in the Flatiron React Router Lab.  But then, it was changed for making it work for this projects.  
 
+VIDEO METHOD USED FOR UPLOADING VIDEOS FROM:
+How To Embed YouTube Videos in React / Gatsby (and make them Responsive)
+ https://youtu.be/xNRJwmlRBNU
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
