@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Filter({onCategoryChange}) {
+function Filter({onCourseChange}) {
   return (
     <div className="Filter">
         <select name="filter" 
-        onChange={onCategoryChange}>
+        onChange={onCourseChange}>
           <option value="All">select...</option>
           <option value="Online">Online</option>
           <option value="Onsite">Onsite</option>
