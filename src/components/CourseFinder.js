@@ -1,5 +1,6 @@
 
 import CourseItem from './CourseItem';
+import Filter from './Filter';
 
 
 
@@ -9,6 +10,8 @@ function CourseFinder ({courses}){
   const allCourses = courses.map((courses) => (
     <CourseItem courses = {courses}/>
   ));    
+
+
 
   //  const finderCourses= courses.filter((courses) => (course.
 
@@ -23,11 +26,13 @@ function CourseFinder ({courses}){
         <div 
         id ="courses" 
         style={{background: "black" }}>
+          
           <h2 
           style={{ color: "pink", fontweight: "bold",
           background: "black" }}> 
-          Choose from the best ONLINE and ONSITE courses!:
+          Course Finder: 
           </h2>
+          <Filter />
           <h2 
           style={{ color: "white", 
           background: "purple" }}> 
