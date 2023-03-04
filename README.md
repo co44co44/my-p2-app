@@ -1,83 +1,75 @@
-# Resources used to create this app
-This project used images are taken from different online sources, the links to those images are on the db.json file. 
+# Name: 
+Kids Coding Course Finder
 
-CSS: This project started using the CSS in the Flatiron React Router Lab.  But then, it was changed for making it work for this projects.  
+# Description: 
+Kids Coding Course Finder is an app that connects users who look for coding courses for their kids to other users who want to promote their coding courses.  In this app, users can upload and publish their courses so the others can contact them.  
 
-VIDEO METHOD USED FOR UPLOADING VIDEOS FROM:
-How To Embed YouTube Videos in React / Gatsby (and make them Responsive)
- https://youtu.be/xNRJwmlRBNU
+The app will return to the user: the courses available on the db.json that matched their search (online/offline). The data inside every course includes: the name of the course, an image, age group, contact information, instructor's name, Model of Instruction: online or onsite.
 
-Youtube videos:
-"https://www.youtube.com/embed/Dv7gLpW91DM" 
-https://youtu.be/g1J4181W8ss
+# Blog: 
+This links talks about the development of this app.  
+
+https://medium.com/@crisordonez44/a-step-by-step-guide-on-react-js-611266490550
+
+# [GITHUB REPOSITORY]: 
+https://github.com/co44co44/my-p2-app.git
+
+# Video: *******EDIT******
+This link is a video with a walkthough of the app. 
+https://youtu.be/UwKvwdh8zB8
+
+# Story of this app: 
+ Learning Programming is a skill parents are looking for their kids.  You can look online to some online and offline alternatives, but there is not a place where they can look for different types of courses, or where teachers/companies can publish and promote   It is exhausting and requires a lot of effort and energy because of not knowing where to go to find what they are looking for.  This app wants to help shoppers find the item they need, by provinding them the store name, details and location where their item is being sold.  
+
+# Audience:
+Parents and students who are looking for a coding course.  Teachers and companies who want to publish and promote their Coding Courses. 
+
+# Server:
+This file contains the data that the user will access.
+
+
+# Support:
+If you need support contact Cristina Ordonez at : crisordonez44@gmail.com 
+
+# Author:
+Maria Cristina Ordonez C.
+
+# Part of the data at the db.json file, including images, was obtained from:
+
+https://tse4.mm.bing.net/th?id=OIP.WgL8Eh9Lr4mq-Dv7ks1MygHaE7&pid=Api&P=0
+https://tse4.mm.bing.net/th?id=OIP.efUvc7EHRuyVrmjNujR5SQHaEo&pid=Api&P=0"
+https://tse1.mm.bing.net/th?id=OIP.b-9DOtM5bGYzPaElZw8wBQHaEv&pid=Api&P=0"
+https://tse3.mm.bing.net/th?id=OIP.U6nfOTA3BWhnpuJHu8bLMQHaFj&pid=Api&P=0"
+https://tse4.mm.bing.net/th?id=OIP.Zcd0xIT_gsGzdiHkMoCD_AHaE8&pid=Api&P=0"
+https://tse4.mm.bing.net/th?id=OIP.2Ecc2kJaDoiau98cs8wETgHaE8&pid=Api&P=0"
+https://tse2.mm.bing.net/th?id=OIP.GJvyr5FXXAuJx17d4bpVhgHaE7&pid=Api&P=0
+https://tse3.mm.bing.net/th?id=OIP.amfFBEacr44c4kabkK0kiwHaEc&pid=Api&P=0
+https://tse4.mm.bing.net/th?id=OIP.nM9vtrfpt0gGQ1_5XnIrlwHaE7&pid=Api&P=0"
+https://tse2.mm.bing.net/th?id=OIP.M1b2341-UGGoeDKTa6wcQQHaGE&pid=Api&P=0"
+https://tse3.mm.bing.net/th?id=OIP.GVXOshLr3oh3VEemEGJ9iAHaHa&pid=Api&P=0
+
+The user will input images they choose. 
 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Resources used to create this app
+This project used images are taken from different online sources, the links to those images are on the db.json file. 
 
-In the project directory, you can run:
+CSS: This project started using the CSS in the Flatiron React Router Lab.  But then, it was changed for making it work for this projects.  I also used Bootstrap. 
 
-### `npm start`
+VIDEO METHOD USED FOR UPLOADING VIDEOS FROM:
+How To Embed YouTube Videos in React / Gatsby (and make them Responsive)
+ https://youtu.be/xNRJwmlRBNU
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Youtube videos used in Home.js:
+https://www.youtube.com/embed/Dv7gLpW91DM 
+https://youtu.be/g1J4181W8ss
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# Project Status:
+Phase-2 Project,for Flatiron School
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Licence:
+Maria Cristina Ordonez 

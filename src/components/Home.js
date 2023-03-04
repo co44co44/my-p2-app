@@ -11,10 +11,10 @@ function Home() {
       </h1>
       
       <Container id= "videos-container">
-        <h1 
-        style={{ color: "darkorange", fontweight: "bold" }}>
+        <h2 
+        style={{ color: "pink", fontweight: "bold" }}>
           Why Programming is important? 
-        </h1>
+        </h2>
 
       <div className="ratio ratio-21x9">
         <iframe src= "https://www.youtube.com/embed/Dv7gLpW91DM" 
@@ -22,7 +22,7 @@ function Home() {
         </iframe>
       </div>
       <br></br>
-      <h1 style={{ color: "orange" }} >What is Coding?</h1>
+      <h2 style={{ color: "pink" }} >What is Coding?</h2>
         <div className="ratio ratio-21x9">
           <iframe src="https://www.youtube.com/embed/g1J4181W8ss" 
           title="YouTube video" allowFullScreen> 

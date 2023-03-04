@@ -7,11 +7,7 @@ function CourseFinder ({courses}){
   
 
   const allCourses = courses.map((courses) => (
-
-    <CourseItem
-    courses = {courses}
-    />
-
+    <CourseItem courses = {courses}/>
   ));    
 
   //  const finderCourses= courses.filter((courses) => (course.
@@ -20,19 +16,23 @@ function CourseFinder ({courses}){
 
   //  })
 
-
-    
-
-
   console.log("coursefinder runs")
 
     return (
 
-        <div id ="courses" style={{background: "black" }}>
-          <h2 style={{ color: "darkorange", fontweight: "bold", background: "white" }}> Choose from the best ONLINE and ONSITE courses!:</h2>
-        <h2 
-        style={{ color: "white", background: "purple" }}> Courses: 
-        </h2> {allCourses} 
+        <div 
+        id ="courses" 
+        style={{background: "black" }}>
+          <h2 
+          style={{ color: "pink", fontweight: "bold",
+          background: "black" }}> 
+          Choose from the best ONLINE and ONSITE courses!:
+          </h2>
+          <h2 
+          style={{ color: "white", 
+          background: "purple" }}> 
+          Courses: 
+          </h2> {allCourses} 
         </div>
 
      

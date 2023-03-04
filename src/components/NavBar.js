@@ -6,7 +6,7 @@ function NavBar() {
 
   return (
 <div>
-    <h1 style={{ background: "white", color: "purple" }}> {` { CODING CLASSES FOR KIDS } `}
+    <h1 style={{ background: "black", color: "darkorange" }}> {`  {    KIDS' CODING COURSE FINDER   } `}
     </h1>
       <nav>
         <NavLink to= "/"> Home </NavLink>
