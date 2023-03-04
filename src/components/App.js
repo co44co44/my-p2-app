@@ -8,20 +8,19 @@ import CourseForm from './CourseForm'
 
 function App () {
   const [courses, setCourses] = useState([]);
-  // const [finder, setFinder] = useState('');
-
 
     useEffect (() => {
       fetch("http://localhost:3000/courses")
         .then (r => r.json())
-        .then (data => setCourses(data))
-        
+        .then (data => setCourses(data))  
   }, [])
 
-function addCourses(courseObj){
-    setCourses([...courses, courseObj])
-  }
+    function addCourses(courseObj){
+        setCourses([...courses, courseObj])
+      }
+
   return (
+    
     <div>
 
       <NavBar/>

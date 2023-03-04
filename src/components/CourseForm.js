@@ -44,10 +44,10 @@ function CourseForm({addCourses}){
             }  
 
         return (
-            <div id = "form"className = "course">
-                <Container>
+            <div id = "form" className = "course">
+                <Container >
                     <h1>Do you run a Coding Club? offer it here!</h1>
-                <form onSubmit = {handleSubmit}>
+                <form onSubmit = {handleSubmit} >
                     <h2 style={{color: "white" , background: "black" }}>
                     <label > Course Name: </label>
                         <input type="text" 
@@ -97,4 +97,5 @@ function CourseForm({addCourses}){
             </div>
         )
 }   
+
 export default CourseForm;

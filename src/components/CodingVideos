@@ -4,8 +4,7 @@ import PropTypes from "prop-types";
     const CodingVideos= ({ embedId }) => (
         <div className="video-responsive">
     
-          <iframe
-            width="853"
+          <iframe width="853"
             height="480"
             src={`https://www.youtube.com/embed/${embedId}`}
             
@@ -21,18 +20,3 @@ import PropTypes from "prop-types";
       };  
 
 export default CodingVideos;
-
-{/* <div className="video-responsive">
-      <iframe width="560" height="315" 
-      src={`https://www.youtube.com/embed/g1J4181W8ss ${embedId}` }
-      title="YouTube video player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-      allowfullscreen></iframe>
-      
-    </div>
-  );
-  
-  CodingVideos.propTypes = {
-    embedId: PropTypes.string.isRequired
-  }; */}
