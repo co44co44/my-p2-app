@@ -3,8 +3,8 @@ import CourseItem from './CourseItem';
 
 function CourseFinder ({courses}){
   
-  const allCourses = courses.map((courses) => (
-    <CourseItem key={courses.id} courses = {courses}/>
+  const allCourses = courses.map((course) => (
+    <CourseItem key={course.id} course = {course}/>
   ));    
 
   console.log("coursefinder runs")
