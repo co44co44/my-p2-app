@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap'
 
 function CourseForm({addCourses}){
 
-    const [id, setId] = useState("")
+    
     const [name, setName] = useState("")
     const [image, setImage] = useState("")
     const [age, setAge] = useState("")
@@ -15,7 +15,6 @@ function CourseForm({addCourses}){
     function handleSubmit(event) {
         event.preventDefault()
         const newCourse =  {
-                id,
                 name,
                 image,
                 age,

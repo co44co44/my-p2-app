@@ -4,7 +4,7 @@ Kids Coding Course Finder
 # Description: 
 Kids Coding Course Finder is an app that connects users who look for coding courses for their kids to other users who want to promote their coding courses.  In this app, users can upload and publish their courses so the others can contact them.  
 
-The app will return to the user: the courses available on the db.json that matched their search (online/offline). The data inside every course includes: the name of the course, an image, age group, contact information, instructor's name, Model of Instruction: online or onsite.
+The app will return to the user: the courses available on the db.json. The data inside every course includes: the name of the course, an image, age group, contact information, instructor's name, Model of Instruction: online or onsite.
 
 # Blog: 
 This links talks about the development of this app.  
