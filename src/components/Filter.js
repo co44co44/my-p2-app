@@ -10,6 +10,9 @@ function Filter({filterBy, onChangeFilter}) {
 
   return (
     <div className="Filter">
+        <h2 style={{ color: "pink", fontweight: "bold",background: "black" }}> 
+          Choose from the best ONLINE and ONSITE courses!:
+        </h2>
       <select  onChange={handleFilterChange}
         value ={filterBy}>
           <option value="All">select...</option>
