@@ -1,13 +1,13 @@
 import CourseItem from './CourseItem';
 
 
-function CourseFinder ({courses}){
+function CourseFinder ({courses, onDeleteCourse}){
   
   const allCourses = courses.map((course) => (
-    <CourseItem key={course.id} course = {course}/>
+    <CourseItem key={course.id} course = {course} onDeleteCourse={onDeleteCourse}/>
   ));    
 
-  console.log("coursefinder runs")
+  
 
     return (
 

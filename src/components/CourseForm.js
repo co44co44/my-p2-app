@@ -4,13 +4,22 @@ import { Container } from 'react-bootstrap'
 
 function CourseForm({addCourses}){
 
-    
+
     const [name, setName] = useState("")
     const [image, setImage] = useState("")
     const [age, setAge] = useState("")
     const [phone, setPhone] = useState("")
     const [instructor, setInstructor] = useState("")
     const [modal, setModal] = useState("")
+
+    const resetForm = () => {
+        setName("")   
+        setImage("") 
+        setAge("") 
+        setPhone("") 
+        setInstructor("")
+        setModal("")
+    }
 
     function handleSubmit(event) {
         event.preventDefault()
@@ -21,6 +30,7 @@ function CourseForm({addCourses}){
                 phone,
                 instructor,
                 modal
+        
         }
         fetch("http://localhost:3000/courses", {
             method: "POST",
@@ -30,7 +40,8 @@ function CourseForm({addCourses}){
             body: JSON.stringify(newCourse)
          })
             .then(r => r.json())
-            .then((course) => addCourses(course))      
+            .then((course) => addCourses(course) )   
+            resetForm()
             }
 
 

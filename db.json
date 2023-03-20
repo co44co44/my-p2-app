@@ -46,15 +46,6 @@
       "modal": "online"
     },
     {
-      "id": 6,
-      "name": "Mrs. Kate Onsite Coding Program",
-      "image": "https://tse4.mm.bing.net/th?id=OIP.2Ecc2kJaDoiau98cs8wETgHaE8&pid=Api&P=0",
-      "age": "Preschool",
-      "phone": "954-222-3333",
-      "instructor": "Happy Coding for Kids",
-      "modal": "onsite"
-    },
-    {
       "id": 7,
       "name": "Ms. Gabela Onsite Coding Program",
       "image": "https://tse2.mm.bing.net/th?id=OIP.GJvyr5FXXAuJx17d4bpVhgHaE7&pid=Api&P=0",
@@ -82,22 +73,13 @@
       "modal": "onsite"
     },
     {
-      "id": 10,
-      "name": "Rocketship Coding Program",
-      "image": "https://tse2.mm.bing.net/th?id=OIP.M1b2341-UGGoeDKTa6wcQQHaGE&pid=Api&P=0",
-      "age": "High School",
-      "phone": "954-222-3333",
-      "instructor": "Happy Coding for Kids",
-      "modal": "onsite"
-    },
-    {
-      "id": 11,
-      "name": "Steve's Coding Club",
-      "image": "https://tse3.mm.bing.net/th?id=OIP.GVXOshLr3oh3VEemEGJ9iAHaHa&pid=Api&P=0",
-      "age": "highSchool",
-      "phone": "999-222-1111",
-      "instructor": "Steve",
-      "modal": "online"
+      "name": "E-SMART Coding Club",
+      "image": "https://st2.depositphotos.com/1005091/6260/v/950/depositphotos_62607689-stock-illustration-heap-of-toys.jpg",
+      "age": "middleSchool",
+      "phone": "954-999-6666",
+      "instructor": "E-SMART",
+      "modal": "onsite",
+      "id": 10
     }
   ]
 }

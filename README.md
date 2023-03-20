@@ -34,7 +34,7 @@ If you need support contact Cristina Ordonez at : crisordonez44@gmail.com
 # Author:
 Maria Cristina Ordonez C.
 
-# Part of the data at the db.json file, including images, was obtained from:
+# Part of the data at the db.json file, including images, were obtained from:
 
 https://tse4.mm.bing.net/th?id=OIP.WgL8Eh9Lr4mq-Dv7ks1MygHaE7&pid=Api&P=0
 https://tse4.mm.bing.net/th?id=OIP.efUvc7EHRuyVrmjNujR5SQHaEo&pid=Api&P=0"
@@ -57,7 +57,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Resources used to create this app
 This project used images are taken from different online sources, the links to those images are on the db.json file. 
 
-CSS: This project started using the CSS in the Flatiron React Router Lab.  But then, it was changed for making it work for this projects.  I also used Bootstrap. 
+CSS: This project started using the CSS in the Flatiron React Router Lab.  But then, it was changed for making it work for this projects.  I also used Bootstrap for the videos at the HOME Components. 
 
 VIDEO METHOD USED FOR UPLOADING VIDEOS FROM:
 How To Embed YouTube Videos in React / Gatsby (and make them Responsive)
@@ -69,7 +69,7 @@ https://youtu.be/g1J4181W8ss
 
 
 # Project Status:
-Phase-2 Project,for Flatiron School
+Phase-2 Project for Flatiron School
 
 # Licence:
 Maria Cristina Ordonez 

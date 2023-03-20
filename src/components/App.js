@@ -27,6 +27,12 @@ function App () {
         setCourses([...courses, courseObj])
       }
 
+    const onDeleteCourse=(id)=>{
+      setCourses(prevCourses => {
+      const filteredArray = prevCourses.filter(course=> course.id !== id )
+      return filteredArray})
+    }
+
   return (
     
     <div>
@@ -35,7 +41,7 @@ function App () {
       <Switch>
         <Route exact path= "/courses">
           <Filter filterby={filterBy} onChangeFilter={setFilterBy}/>
-          <CourseFinder courses ={filterByModel} />
+          <CourseFinder onDeleteCourse= {onDeleteCourse} courses ={filterByModel} />
         </Route>
         <Route exact path= "/courses/new">
           <CourseForm addCourses= {addCourses} />
