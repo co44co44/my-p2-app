@@ -11,11 +11,11 @@ function App () {
   const [courses, setCourses] = useState([]);
   const [filterBy, setFilterBy] = useState("All")
 
-
+ 
     useEffect (() => {
       fetch("http://localhost:3000/courses")
         .then (r => r.json())
-        .then (data => setCourses(data))  
+        .then (data => setCourses(data))    
   }, [])
 
   
@@ -32,7 +32,7 @@ function App () {
       const filteredArray = prevCourses.filter(course=> course.id !== id )
       return filteredArray})
     }
-
+    
   return (
     
     <div>

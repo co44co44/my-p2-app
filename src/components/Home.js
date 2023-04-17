@@ -3,16 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap'
 
 function Home() {
-   console.log ("home running")
+  
   return(
     <div style={{background: "black" }}>
-      <h1 style={{ color: "orange" }}>
-      
-      </h1>
-      
+     
       <Container id= "videos-container">
-        <h2 
-        style={{ color: "pink", fontweight: "bold" }}>
+        <h2 style={{ color: "pink", fontweight: "bold" }}>
           Why Programming is important? 
         </h2>
 
@@ -21,6 +17,7 @@ function Home() {
         title="YouTube video" allowFullScreen> 
         </iframe>
       </div>
+
       <br></br>
       <h2 style={{ color: "pink" }} >What is Coding?</h2>
         <div className="ratio ratio-21x9">

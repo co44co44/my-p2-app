@@ -44,7 +44,6 @@ function CourseForm({addCourses}){
             resetForm()
             }
 
-
             function addAge(event){
                 setAge(event.target.value)
             } 
@@ -57,28 +56,26 @@ function CourseForm({addCourses}){
             <div id = "form" className = "course">
                 <Container >
                     <h1>Do you run a Coding Club? offer it here!</h1>
-                <form onSubmit = {handleSubmit} >
-                    <h2 style={{color: "white" , background: "black" }}>
-                    <label > Course Name: </label>
+
+                    <form onSubmit = {handleSubmit} > <h2 style={{color: "white" , background: "black" }}>
+                        <label > Course Name: </label>
                         <input type="text" 
-                            id="name" 
-                            value={name} 
-                            onChange={e => setName(e.target.value)} />
-                        
-                        <label style ={{display: "block"}}>
-                            Age group: 
+                                id="name" 
+                                value={name} 
+                                onChange={e => setName(e.target.value)} />
+                            
+                        <label style ={{display: "block"}}> Age group: 
                         <select
-                            name= "age"
-                            value= { age }
-                            onChange={addAge}>
-                                <option value="">select...</option>
-                                <option value="preschool">Preschool</option>
-                                <option value="elementary">Elementary</option>
-                                <option value="middleSchool">Middle School</option>
-                                <option value="highSchool">High School</option>
-                            </select>
+                                name= "age"
+                                value= { age }
+                                onChange={addAge}>
+                                    <option value="">select...</option>
+                                    <option value="preschool">Preschool</option>
+                                    <option value="elementary">Elementary</option>
+                                    <option value="middleSchool">Middle School</option>
+                                    <option value="highSchool">High School</option>
+                                </select>
                         </label>
-                        
                         
                         <label>Contact info:</label>
                         <input type="text" id="contact" value={phone} onChange={e => setPhone(e.target.value)} />
@@ -97,6 +94,7 @@ function CourseForm({addCourses}){
                                 <option value="onsite">Onsite</option>
                             </select>
                         </label>
+
                         <label htmlFor="image">Image URL:</label>
                         <input type = "text" id="image" value= {image} onChange = {e => setImage(e.target.value)} />
 

@@ -16,7 +16,7 @@ https://github.com/co44co44/my-p2-app.git
 
 # Video: *******EDIT******
 This link is a video with a walkthough of the app. 
-https://youtu.be/UwKvwdh8zB8
+https://youtu.be/EUKlA9zAqBw
 
 # Story of this app: 
  Learning Programming is a skill parents are looking for their kids.  You can look online to some online and offline alternatives, but there is not a place where they can look for different types of courses, or where teachers/companies can publish and promote   It is exhausting and requires a lot of effort and energy because of not knowing where to go to find what they are looking for.  This app wants to help shoppers find the item they need, by provinding them the store name, details and location where their item is being sold.  

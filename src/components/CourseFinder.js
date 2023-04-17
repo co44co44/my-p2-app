@@ -15,7 +15,7 @@ function CourseFinder ({courses, onDeleteCourse}){
           
           <h2 style={{ color: "white", background: "purple" }}> 
           Courses: 
-          </h2> {allCourses} 
+          </h2 > {allCourses} 
         </div>
     )
 }

@@ -3,6 +3,7 @@ import React from 'react';
 
 function CourseItem({ course, onDeleteCourse }){
   const {id} =course
+  
   const handleDelete = () => {
     fetch( `http://localhost:3000/courses/${id}`, {
       method:"DELETE"
@@ -21,7 +22,7 @@ function CourseItem({ course, onDeleteCourse }){
         <h3>Contact: {course.phone}</h3>
         <h3>Instructor: {course.instructor}</h3>
         <h3>Model of Instruction: {course.modal}</h3>
-        <button className= 'delete' onClick={handleDelete}>X</button>
+        <button id = "button" className= 'delete' onClick={handleDelete}>X</button>
       </div>
       
     )
